@@ -1,0 +1,13 @@
+.#*
+gen/
+bin/
+proguard/
+build/
+*.class
+CVS/
+/.settings/org.eclipse.jdt.core.prefs
+/project.properties
+!.gitignore
+!*.jar
+!*.so
+.settings/
