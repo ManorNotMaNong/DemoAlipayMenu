@@ -82,7 +82,7 @@ public class MainActivity extends Activity {
 		// 置最后一个 item 是否可以拖拽
 		mDragGridView.setLastCanDrag(false);
 		// gridItem 拖动响应时间
-		mDragGridView.setDragResponseMS(500l);
+		mDragGridView.setDragResponseMS(1000l);
 		// DragGridView暂时只能设置 SimpleAapter，ArrayAdapter 不能拖动，BaseAdapter 没有试
 		mDragGridView.setAdapter(mSimpleAdapter);
 		mDragGridView.setOnChangeListener(new OnChanageListener() {
